@@ -7,3 +7,7 @@ Link to Project Overview Excel Sheet:
 
 Link to Team Contract:
     https://drive.google.com/drive/folders/13i_Urokr91KYnmvP8V-mKCzHKgPYfj9F?usp=sharing
+    
+Link to team shared folder:
+    https://drive.google.com/drive/folders/13i_Urokr91KYnmvP8V-mKCzHKgPYfj9F?usp=sharing
+    
