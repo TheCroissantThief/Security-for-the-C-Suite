@@ -1,4 +1,3 @@
-#!<set interpreter path>
 
 import pyWinhook
 import pythoncom
