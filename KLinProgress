@@ -1,5 +1,4 @@
 import random                                                                    #import random module which helps generate a random integer#
-import pynput
 from pynput.keyboard import Key, Listener, Controller
 
 output = 'pwnd' + str(random.randint(69, 75)) + '.txt'                         #output = filename plus a random integer within the specific range as a text file#
