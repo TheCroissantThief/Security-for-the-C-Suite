@@ -6,3 +6,5 @@ The fourth line imports the pynput module.  Pynput allows you to control and mon
 
 Line 6 we assign a variable a string value. We want it to be a random string added to a random integer from the module we imported.  This approach ensures that the output files will not be written over each other to give us better access to our target's keystrokes                                                                                                         
 In line 8 we create, open and name the new file using our new variable and by giving it write permissions. This allows our script to write to the file
+
+
