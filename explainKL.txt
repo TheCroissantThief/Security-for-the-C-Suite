@@ -8,4 +8,4 @@ Line 6 we assign a variable a string value. We want it to be a random string add
 In line 8 we create, open and name the new file using our new variable and by giving it write permissions. This allows our script to write to the file
 
 
-Line 11 we define a new function. This function opens the newly created output file in append mode and writes the pressed keystroke.
+Line 11 we define a new function. This function opens the newly created output file in append mode and writes the pressed keystroke to the file.
