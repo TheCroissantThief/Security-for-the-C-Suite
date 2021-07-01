@@ -4,5 +4,5 @@ The third line imports the random module, this module generates pseudo-random nu
 
 The fourth line imports the pynput module.  Pynput allows you to control and monitor input devices.  Mouse and Keyboard being the primary devices.  From this module we import Key, Listener, and Controller 
 
-Line 6 we assign the variable, output, a string value. We want it to be a random string added to a random integer from the module we imported.  This approach ensures that the output files will not be written over each other to give us better access to our targets keystrokes                                                                                                         
+Line 6 we assign a variable a string value. We want it to be a random string added to a random integer from the module we imported.  This approach ensures that the output files will not be written over each other to give us better access to our targets keystrokes                                                                                                         
 In line 8 we create and open the file using our output variable and give it write permissions. This allows our script to write to the file
