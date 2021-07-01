@@ -8,7 +8,7 @@ Line 6 we assign a variable a string value. We want it to be a random string add
 In line 8 we create, open and name the new file using our new variable and by giving it write permissions. This allows our script to write to the file
 
 
-This function records their keystrokes on press and writes it to our output file.  It informs us within the file that is it the pressed key.  After it is written, file closes.
+Line 11 defines a function that records keystrokes on press and writes it to our output file.  It informs us within the file that it is the pressed key.  After it is written, file closes.
 
 
 
