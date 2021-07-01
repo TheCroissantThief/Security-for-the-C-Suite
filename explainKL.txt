@@ -1,4 +1,8 @@
 The first line of coourse is the "shebang" this path is the directory to python, and allows the executable to be ran on a certain machine
 
 The third line imports the random module, this module generates pseudo-random numbers.  For our example we used randint, which generates a random integer within our specified range
-The fourth line imports the pynput module.
+
+The fourth line imports the pynput module.  Pynput allows you to control and monitor input devices.  Mouse and Keyboard being the primary devices.  From this module we imort Key, Listener, and Controller 
+
+Line 6 is where we make out output file.  We want it to be a random string added to a random integer from the module we imported.  This approach ensures that the output files will not be written over each other to give us better access to our targets keystrokes                                                                                                         
+In line 8 we open the output file, and give it write permissions.  This allows our script to write to the file
