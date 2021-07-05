@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import random
-from pynput.keyboard import Key, Listener, Controller
+from pynput.keyboard import Listener
 
-output = 'pwnd' + str(random.randint(99, 9999999999999999)) + '.txt'
+output = 'pwnd' + str(random.randint(312, 33345345453453453455344534533453453453453453455)) + '.txt'
 
 with open(output, 'w') as f:
     f.close()
